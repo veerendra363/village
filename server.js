@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
+const routes = require('./routes')
 
 const app = express();
 
@@ -20,6 +21,8 @@ app.use (bodyParser.urlencoded({extended:true}));
 app.get ('/', (req, res) => {
 res.json({message: 'Welcome to Turing.com'});
 });
+
+app.use('/vlg', routes)
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;

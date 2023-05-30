@@ -1,0 +1,6 @@
+# ***** User Roles APIS *****
+
+
+
+# Get All user roles
+Get http://localHost:8080/vlg/user/roles
