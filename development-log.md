@@ -2,13 +2,13 @@
 
 ### 2023-05-17  
     - Create the project folder.  
-    - Initialized the project using `npm init`.  
-    - Installed express using 'npm install express'.  
+    - Initialized the project using ```npm init```.  
+    - Installed [express](https://expressjs.com/) using ```npm install express```.  
     - Added File structure.  
 
 ### 2023-05-18
-    - Installed Sequelize, mysql2, body-parser, cors using 'npm install express sequelize mysql2 body-parser cors --save'.  
-    - Run the Server Using Express, body-parser, cors and command 'node index'.  
+    - Installed [Sequelize](https://sequelize.org/), [body-parser](https://www.npmjs.com/package/body-parser), [cors](https://www.npmjs.com/package/cors) using ```npm install express sequelize body-parser cors --save```.  
+    - Run the Server Using Express, body-parser, cors and command ```node index```.  
 
 ### 2023-05-29
     - Using MacBook pro built in DBMS(sqlite).  
