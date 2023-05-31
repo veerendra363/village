@@ -1,6 +1,14 @@
 # ***** User Roles APIS *****
 
-
-
 # Get All user roles
 Get http://localHost:8080/vlg/user/roles
+
+# Create new user role
+POST http://localHost:8080/vlg/user/roles
+Content-Type: application/json
+
+{
+    "role": "new_role_1"
+}
+
+

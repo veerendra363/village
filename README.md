@@ -2,7 +2,15 @@
 
 This project is a simple Node.js application designed for the purpose of understanding and practicing various concepts of web development. It focuses on managing basic information about villages.  
 
-## Project Overview
+## Table of Contents
+1) [Project Overview](#project-overview)
+2) [Technologies Used](#technologied-used)
+3) [Getting Started](#getting-started)
+    1) [prerequisites](#prerequisites)
+    2) [installation](#installation)
+    
+
+## Project Overview<
 
 The Village Management Project aims to provide a user-friendly interface to handle village-related data. It allows users to perform CRUD (Create, Read, Update, Delete) operations on the village data using a web interface.
 

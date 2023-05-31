@@ -36,4 +36,12 @@
 - Installed vs extension [rest client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) (which allows you to send HTTP request and view the response in Visual Studio Code directly).
 - Created rest client (.http)file to request and get response from user roles API.
 
+### 2023-05-31
+- Added ReadMe file
+- Installed Joi using the command ```npm install joi```
+- Added a common function to return a custom response from all apis
+- Added a common schema validator function
+- Added a constants file which stores all constants variable of the app
+- Created Post api to add new user role with schema validation
+
 
