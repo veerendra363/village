@@ -10,7 +10,7 @@ const models = require('../../../models');
  */
 async function getAllUserRoles() {
   try {
-    const roles = await models.userRoles.findAll({ raw: true })
+    const roles = await models.userRoles.findAll({ attributes:['id', 'role'], raw: true })
     return roles
   } catch (error) {
     console.error('Error fetching roles:', error)

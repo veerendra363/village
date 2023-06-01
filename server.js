@@ -19,13 +19,13 @@ app.use (bodyParser.urlencoded({extended:true}));
 
 //simple route
 app.get ('/', (req, res) => {
-res.json({message: 'Welcome to Turing.com'});
+res.json({message: 'Welcome to My village'});
 });
 
 app.use('/vlg', routes)
 
 // set port, listen for requests
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
 console.log (`Server is running on port ${PORT}.` );
 });

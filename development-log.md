@@ -38,10 +38,19 @@
 
 ### 2023-05-31
 - Added ReadMe file
-- Installed Joi using the command ```npm install joi```
+- Installed [Joi](https://joi.dev/) using the command ```npm install joi```
 - Added a common function to return a custom response from all apis
 - Added a common schema validator function
 - Added a constants file which stores all constants variable of the app
 - Created Post api to add new user role with schema validation
+
+### 2023-06-01
+- Created migration file to add unique constrain to role in userRoles table by running the command ```npx sequelize-cli migration:generate --name add_case_insensitive_unique_constraint_to_role_in_userRoles```.
+- Created migration file to add castes table and renamed the file just to move above the create users table migration.
+- Reverted the create users table migration using the command ```npx sequelize-cli db:migrate:undo --name 20230529124505-create_users_table```
+- Updated the create users table migration to add castedId in it and allowNull to true.
+- Applied the above migrations to the db using the command ```npx sequelize-cli db:migrate```.
+- Added new caste migration and seeder file and migrated them both
+- Created seeder file for admin user and seeded the data to the db.
 
 
