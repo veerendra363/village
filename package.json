@@ -5,17 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "migrate": "node scripts/migrations.js",
-    "seed": "node scripts/seeds.js",
-    "migrate": "npx sequelize-cli db:migrate",
-    "seed": "npx sequelize-cli db:seed",
-    "create-migration": "npx sequelize-cli migration:generate --name",
-    "create-seed": "npx sequelize-cli seed:generate --name",
-    "undo-migrate": "npx sequelize-cli db:migrate:undo",
-    "undo-seed": "npx sequelize-cli db:seed:undo:all",
-    "undo-specific-migration": "npx sequelize-cli db:migrate:undo --name",
-    "undo-specific-seed": "npx sequelize-cli db:seed:undo --name"
+    "start": "nodemon server.js"
   },
   "author": "veeru",
   "license": "ISC",
