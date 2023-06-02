@@ -52,5 +52,9 @@
 - Applied the above migrations to the db using the command ```npx sequelize-cli db:migrate```.
 - Added new caste migration and seeder file and migrated them both
 - Created seeder file for admin user and seeded the data to the db.
+- Added readme file to migrations directory
+
+### 2023-06-02
+- Added readme file to seeders, models, tests, config directories
 
 
